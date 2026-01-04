@@ -44,4 +44,3 @@ void FragTrap::highFivesGuys(void)
     else
         std::cout << "FragTrap " << Name << " is dead and cannot high five" << std::endl;
 }
-

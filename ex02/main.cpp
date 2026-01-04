@@ -4,19 +4,12 @@
 
 int main()
 {
-    ClapTrap clap1("ClapOne");
-    ClapTrap clap2("ClapTwo");
+    FragTrap frag1("frag1");
 
-    clap1.attack("TargetA");
-    clap2.takeDamage(5);
-    clap2.beRepaired(3);
-
-    ClapTrap clap3 = clap1;
-    clap3.attack("TargetB");
-
-    ClapTrap clap4;
-    clap4 = clap2;
-    clap4.attack("TargetC");
+    frag1.attack("TargetA");
+    frag1.takeDamage(5);
+    frag1.beRepaired(3);
+    frag1.highFivesGuys();
 
     return 0;
 }
